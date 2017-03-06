@@ -19,3 +19,5 @@ unsetopt CORRECT                      # Disable autocorrect guesses. Happens whe
 setopt RM_STAR_WAIT
 
 export EDITOR="nano"
+
+eval "$(jump shell)"
