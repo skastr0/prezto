@@ -18,6 +18,9 @@ unsetopt CORRECT                      # Disable autocorrect guesses. Happens whe
 # 10 second wait if you do something that will delete everything.  I wish I'd had this before...
 setopt RM_STAR_WAIT
 
-export EDITOR="nano"
+export EDITOR="code"
 
-eval "$(jump shell)"
+export N_PREFIX=~/.npm-global/node
+export PATH=~/.npm-global/bin:$PATH
+
+# eval "$(jump shell)"
